@@ -7,7 +7,7 @@ import Logos from "@/components/logos";
 import Customer_Stories from "@/components/Customer_Stories";
 import CTA from "@/components/CTA";
 import Navbar from "@/Comman/Navbar";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 
 const geistSans = localFont({
