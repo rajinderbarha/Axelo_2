@@ -7,7 +7,7 @@ function Integration() {
       <div className="Integration relative py-16 sm:py-36">
         <div className="container mx-auto">
           <div className="grid  sm:grid-cols-2  items-center">
-            <div className="max-w-[663px] ">
+            <div className="max-w-[663px] " data-aos="fade-up">
               <h2 className="text-white mb-[20px] md:mb-[40px]">
                 Empower your Enterprise with seamless AI agent Integration
               </h2>
@@ -23,7 +23,7 @@ function Integration() {
               </p>
             </div>
             <div className="max-w-[490px] ms-auto">
-              <Image src={Integration_image} alt="Integration_image" />
+              <Image src={Integration_image} alt="Integration_image" data-aos="fade-up"/>
             </div>
           </div>
         </div>

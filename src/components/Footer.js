@@ -1,11 +1,19 @@
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import Logo_footer from '../assets/logos/Logo_main.svg'
 import Image from 'next/image'
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 const Footer = () => {
+    // useEffect(() => {
+    //     AOS.init({
+    //       duration: 1200, 
+    //       once: true,     
+    //     });
+    //   }, []);
     return (
         <>
-            <div className="container mx-auto    py-[20px] px-[10px] bg-[#0c0d14]">
+            <div  className="container mx-auto    py-[20px] px-[10px] bg-[#0c0d14]" >
                 <div className="footer_container bg-[#0c0d14] border-[1px] border-[#FFFFFF33] border-solid rounded-[20px] sm:rounded-[40px] pt-[58px] md:pt-[80px] lg:pt-[102px] px-[30px] md:px-[70px] lg:px-[100px] ">
                     <div className="flex justify-between sm:flex-row flex-col gap-[50px]">
                         <div className="footer-logo-items">
@@ -14,9 +22,9 @@ const Footer = () => {
                                 <Image src={Logo_footer} alt='' className='max-w-[114px] sm:max-w-[140px] md:max-w-[190px] w-full' />
                             </div>
                             <ul className='list-none text-[#93949B] mt-[38px] md:mt-[50px] lg:mt-[82px] text-lg'>
-                                <li className=''>Email : info@stelisai.com</li>
-                                <li>Phone : +44 2345 1234</li>
-                                <li>Address : 78, street New york</li>
+                                <li className='' >Email : info@stelisai.com</li>
+                                <li >Phone : +44 2345 1234</li>
+                                <li >Address : 78, street New york</li>
                             </ul>
                         </div>
                         <div className="pages-links">

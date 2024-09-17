@@ -16,7 +16,7 @@ function SliderMain() {
   };
 
   return (
-    <div className="SliderMain px-4">
+    <div className="SliderMain px-4" data-aos="fade-up">
       <Slider {...settings}>
       <div className="Customer_Stories_card p-8">
             <div className="flex items-center mb-12 justify-between">

@@ -7,8 +7,10 @@ import Logos from "@/components/logos";
 import Customer_Stories from "@/components/Customer_Stories";
 import CTA from "@/components/CTA";
 import Navbar from "@/Comman/Navbar";
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Footer from "@/components/Footer";
-
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,6 +24,13 @@ const geistMono = localFont({
 });
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200, 
+      once: true,  
+      offset: 10,   
+    });
+  }, []);
   return (
     <>
     <Navbar />
