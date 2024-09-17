@@ -248,7 +248,7 @@ div#home:after {
 }
 .App{
     position: fixed;
-    padding: 20px 0;
+    padding: 21px 0;
     /* backdrop-filter:blur(10px); */
     z-index: 9;
 }
