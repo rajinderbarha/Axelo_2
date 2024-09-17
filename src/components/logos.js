@@ -11,11 +11,11 @@ function Logos() {
     <>
       <div className="line"></div>
       <div className="logos overflow-hidden  sm:py-20 py-10">
-        <h3 className="text-white text-center mb-12">
+        <h3 className="text-white text-center mb-12" data-aos="fade-up">
           Trusted by the world’s best companies
         </h3>
-        <div className="main_logos flex ">
-          <div className="logo_items">
+        <div className="main_logos flex " >
+          <div className="logo_items" data-aos="fade-up">
             <Image src={logo_1} alt="logos" />
             <Image src={logo_2} alt="logos" />
             <Image src={logo_3} alt="logos" />
@@ -23,7 +23,7 @@ function Logos() {
             <Image src={logo_5} alt="logos" />
             <Image src={logo_6} alt="logos" />
           </div>
-          <div className="logo_items">
+          <div className="logo_items" data-aos="fade-up">
           <Image src={logo_1} alt="logos" />
             <Image src={logo_2} alt="logos" />
             <Image src={logo_3} alt="logos" />
