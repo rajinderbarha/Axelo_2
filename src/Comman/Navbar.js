@@ -42,8 +42,9 @@ const Navbar = () => {
               
             </ul>
             <div className="banner_buttons flex gap-3  justify-center">
-            <button className="light_button hidden sm:block">Sign Up</button>
             <button className="transparent_button  hidden sm:block">Request a Demo </button>
+            <button className="light_button hidden sm:block">Sign Up</button>
+          
             <div
               className={`hamburger ${isActive ? "active" : ""}`}
               onClick={toggleActiveClass}

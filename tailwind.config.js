@@ -13,10 +13,10 @@ module.exports = {
       },
       container: {
         padding: {
-          DEFAULT: '16px',
+          DEFAULT: '35px',
         },
         screens: {
-          'xl': '1470px',
+          'xl': '1400px',
         },
       },
     },
