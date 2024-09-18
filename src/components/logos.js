@@ -8,10 +8,10 @@ import logo_6 from "../assets/logos/scrapingbee.svg";
 import Image from "next/image";
 function Logos() {
   return (
-    <>
+    < div className="py-1">
       <div className="line"></div>
-      <div className="logos overflow-hidden  sm:py-20 py-10">
-        <h3 className="text-white text-center mb-12" data-aos="fade-up">
+      <div className="logos overflow-hidden  sm:py-16 py-10">
+        <h3 className="text-white text-center mb-16 px-[25px]" data-aos="fade-up">
           Trusted by the world’s best companies
         </h3>
         <div className="main_logos flex " >
@@ -33,8 +33,8 @@ function Logos() {
           </div>
         </div>
       </div>
-      <div className="line"></div>
-    </>
+      <div className="line "></div>
+    </div>
   );
 }
 

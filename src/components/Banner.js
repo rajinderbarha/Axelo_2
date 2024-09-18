@@ -9,19 +9,21 @@ function Banner() {
     <div className="Banner pb-20 pt-36 lg:pb-64 lg:pt-[206px]">
       <div className=" container mx-auto">
         <div className="banner_text">
-          <h1  data-aos="fade-up" className="text-white text-center  lg:mb-0  mb-8">
+          <h1  data-aos="fade-up" className="text-white text-center mx-auto max-w-[900px] relative z-10    mb-8">
             Revolutionising Enterprise{" "}
             <span className="Automation italic "> Automation</span> Using AI
             Agents{" "}
           </h1>
-          <p  data-aos="fade-up"  data-aos-delay="300" className="text-center sm:block hidden  max-w-[1110px] mx-auto">
+          <p  data-aos="fade-up"  data-aos-delay="300" className="text-center  max-w-[900px]   relative z-10 sm:block hidden  mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <div  data-aos="fade-up"  data-aos-delay="400" className="banner_buttons flex gap-3 mt-[30px]  md:mt-[80px] justify-center">
+
+          <div  data-aos="fade-up"  data-aos-delay="400" className="banner_buttons  relative z-10 flex gap-3 mt-[30px]  md:mt-[80px] justify-center">
             <button className="light_button">Sign Up</button>
+
             <button className="transparent_button ">Request a Demo </button>
           </div>
         </div>
@@ -37,6 +39,7 @@ function Banner() {
           className="md:mt-[100px] mt-8 sm:hidden block"
         /> */}
       </div>
+
     </div>
   );
 }

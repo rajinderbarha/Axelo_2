@@ -16,10 +16,10 @@ function SliderMain() {
   };
 
   return (
-    <div className="SliderMain px-4" data-aos="fade-up">
+    <div className="SliderMain px-[35px]">
       <Slider {...settings}>
       <div className="Customer_Stories_card p-8">
-            <div className="flex items-center mb-12 justify-between">
+            <div className="flex items-center mb-6 sm:mb-12 justify-between">
               <div className="flex Customer items-center gap-5">
                 <Image src={Customer_Image} alt="Customer_Image" />
                 <div className="">
@@ -39,7 +39,7 @@ function SliderMain() {
             </p>
           </div>
           <div className="Customer_Stories_card p-8">
-            <div className="flex items-center mb-12 justify-between">
+            <div className="flex items-center mb-6 sm:mb-12 justify-between">
               <div className="flex Customer items-center gap-5">
                 <Image src={Customer_Image} alt="Customer_Image" />
                 <div className="">
@@ -59,7 +59,7 @@ function SliderMain() {
             </p>
           </div>
           <div className="Customer_Stories_card p-8">
-            <div className="flex items-center mb-12 justify-between">
+            <div className="flex items-center mb-6 sm:mb-12 justify-between">
               <div className="flex Customer items-center gap-5">
                 <Image src={Customer_Image} alt="Customer_Image" />
                 <div className="">

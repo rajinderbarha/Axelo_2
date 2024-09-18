@@ -13,7 +13,7 @@ const Footer = () => {
     //   }, []);
     return (
         <>
-            <div  className="container mx-auto    py-[20px] px-[10px] bg-[#0c0d14]" >
+            <div className="container mx-auto    py-[20px] px-[35px] bg-[#0c0d14]" >
                 <div className="footer_container bg-[#0c0d14] border-[1px] border-[#FFFFFF33] border-solid rounded-[20px] sm:rounded-[40px] pt-[58px] md:pt-[80px] lg:pt-[102px] px-[30px] md:px-[70px] lg:px-[100px] ">
                     <div className="flex justify-between sm:flex-row flex-col gap-[50px]">
                         <div className="footer-logo-items">

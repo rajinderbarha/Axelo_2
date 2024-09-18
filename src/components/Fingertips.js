@@ -13,52 +13,51 @@ import Dropbox from '../assets/logos/Dropbox.png'
 import Googlesheet from '../assets/logos/Google sheet.png'
 function Fingertips() {
   return (
-    <div className="Fingertips overflow-hidden pt-[50px] pb-[84px] md:pt-28 md:pb-36">
+    <div className="Fingertips pt-[50px] pb-[84px] md:pt-28 md:pb-36">
       <div className="container text-center mx-auto">
         <h2 className="text-white mb-5" data-aos="fade-up">
           Smart integrations at your fingertips{" "}
         </h2>
         <p className="mb-20" data-aos="fade-up">Connect you ai agent with leading platforms</p>
         <Image src={Fingertips_img} className="md:block hidden" alt="Fingertips_img" data-aos="fade-up"/>
-      
         <div className="Logos_Fingertips md:hidden block">
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={Azure_blob_storage} alt="logo" />
           <h6 className="text-white">Azure blob storage</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={AWSS3} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={Snowflake} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={Salesforce} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={GoogleDocs} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={Notion} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={Email} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={Slack} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={Dropbox} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
-        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" data-aos="fade-up">
+        <div className="flex items-center rounded gap-5 bg-[#FFFFFF08] py-[10px] mb-5 px-6" >
           <Image width={40} src={Googlesheet} alt="logo" />
           <h6 className="text-white">AWS S3</h6>
         </div>
