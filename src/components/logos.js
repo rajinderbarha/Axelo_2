@@ -8,7 +8,7 @@ import logo_6 from "../assets/logos/scrapingbee.svg";
 import Image from "next/image";
 function Logos() {
   return (
-    < div className="py-2">
+    < div className="pb-2">
       <div className="line"></div>
       <div className="logos overflow-hidden  sm:py-16 py-10">
         <h3 className="text-white text-center mb-16 px-[25px]" data-aos="fade-up">
