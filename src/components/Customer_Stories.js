@@ -6,12 +6,12 @@ import Carousel from "./Slider";
 function Customer_Stories() {
   return (
     <div className="Customer_Stories pb-20 md:pb-44 overflow-hidden ">
-      <h2 className="text-white text-center mb-5 px-[35px]" data-aos="fade-up">Customer Stories</h2>
-      <p className="sm:mb-20 mb-8 text-center px-[35px]" data-aos="fade-up">
+      <h2 className="text-white text-center mb-5 px-[35px]" >Customer Stories</h2>
+      <p className="sm:mb-20 mb-8 text-center px-[35px]" >
         Witter powers the social media profiles of over 100,000 creators and
         influencers
       </p>
-      <div className="blur_cos md:block hidden relative" data-aos="fade-up">
+      <div className="blur_cos md:block hidden relative" >
       <div className="main_logos mb-[30px] flex " >
         <div className="logo_items">
           <div className="Customer_Stories_card p-8">

@@ -19,9 +19,9 @@ const Navbar = () => {
         <header className="App-header">
           <nav className="navbar container mx-auto">
             {/* logo */}
-            <a href="#home" className="logo">
-              <Image src={Logo_main} className="hidden sm:block" alt="Logo_main" />
-              <Image src={Logo_main2} className="block sm:hidden" alt="Logo_main" />
+            <a href="#home" className="logo ">
+              <Image src={Logo_main} width={130} className="hidden sm:block w-full" alt="Logo_main" />
+              <Image src={Logo_main2} className="mobile_logo hidden" alt="Logo_main" />
             </a>
             <ul className={`navMenu text-white ${isActive ? "active" : ""}`}>
               <li onClick={removeActive}>
